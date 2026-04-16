@@ -1,5 +1,7 @@
 import React from 'react'
 
+import logo from '../assets/millworx_logo.svg'
+
 export default function Footer() {
     return (
         <footer className="footer" id="contact">
@@ -7,7 +9,7 @@ export default function Footer() {
                 <div className="footer__top">
                     <div>
                         <div className="footer__logo"><img
-                            src="https://static.wixstatic.com/media/e4f8c2_5885afc525ad4ec6bc1a2484d8f0e5dd~mv2.png/v1/crop/x_0,y_359,w_1080,h_318/fill/w_319,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Millworx%20IG%2BFB%20(20).png"
+                            src={logo}
                             alt="Millworx" /></div>
                         <p className="footer__tagline">
                             Custom European cabinetry,<br />designed and built in Ontario.
@@ -38,20 +40,24 @@ export default function Footer() {
                     <div>
                         <div className="footer__col-title">Contact</div>
                         <p className="footer__contact-item">
-                            Ontario, Canada<br />
-                            Greater Toronto Area<br /><br />
-                            (416) 555-0180<br />
-                            info@millworx.ca
+                            6150 Ordan Dr<br />
+                            Mississauga, ON L5T 2B3<br /><br />
+                            <a href="tel:9056709001" className="footer__link">(905) 670-9001</a>
                         </p>
+                        <div className="footer__col-title footer__col-title--sm">Hours</div>
+                        <ul className="footer__links footer__hours">
+                            <li><span>Mon – Thu</span><span>8 a.m. – 5 p.m.</span></li>
+                            <li><span>Friday</span><span>8 a.m. – 3 p.m.</span></li>
+                            <li><span>Sat – Sun</span><span>Closed</span></li>
+                        </ul>
                     </div>
                 </div>
 
                 <div className="footer__bottom">
                     <p className="footer__copy">© 2024 Millworx. All rights reserved.</p>
                     <div className="footer__social">
-                        <a href="#" className="footer__social-link">Instagram</a>
-                        <a href="#" className="footer__social-link">Facebook</a>
-                        <a href="#" className="footer__social-link">Houzz</a>
+                        <a href="https://www.instagram.com/millworx.ca/" className="footer__social-link">Instagram</a>
+                        <a href="https://www.facebook.com/millworxcompany" className="footer__social-link">Facebook</a>
                     </div>
                 </div>
             </div>
