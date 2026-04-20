@@ -1,0 +1,77 @@
+[
+    {
+        "id": "dunloe",
+        "title": "Dunloe",
+        "category": "Residential Kitchen",
+        "location": "Toronto, ON",
+        "year": "2024",
+        "description": "A full kitchen renovation featuring custom European cabinetry, integrated appliances, and bespoke island millwork. Every detail was designed and fabricated in-house to complement the home's contemporary aesthetic.",
+        "thumb": "dunloe_1.jpg",
+        "images": [
+            "dunloe_1.jpg",
+            "dunloe_2.jpg",
+            "dunloe_3.jpg",
+            "dunloe_4.jpg",
+            "dunloe_5.jpg",
+            "dunloe_6.jpg",
+            "dunloe_7.jpg",
+            "dunloe_8.jpg",
+            "dunloe_9.jpg",
+            "dunloe_10.jpg",
+            "dunloe_11.jpg",
+            "dunloe_12.jpg",
+            "dunloe_13.jpg",
+            "dunloe_14.jpg",
+            "dunloe_15.jpg",
+            "dunloe_16.jpg",
+            "dunloe_17.jpg",
+            "dunloe_18.jpg",
+            "dunloe_19.jpg",
+            "dunloe_20.jpg",
+            "dunloe_21.jpg",
+            "dunloe_22.jpg",
+            "dunloe_23.jpg",
+            "dunloe_24.jpg",
+            "dunloe_25.jpg",
+            "dunloe_26.jpg",
+            "dunloe_27.jpg"
+        ]
+    },
+    {
+        "id": "credit_heights",
+        "title": "Credit Heights",
+        "category": "Custom Cabinetry",
+        "location": "Mississauga, ON",
+        "year": "2023",
+        "description": "A whole-home cabinetry package spanning kitchen, bathrooms, and custom built-ins throughout. Crafted from premium European materials with soft-close hardware and integrated lighting.",
+        "thumb": "credit_heights_1.jpg",
+        "images": [
+            "credit_heights_1.jpg",
+            "credit_heights_2.jpg",
+            "credit_heights_3.jpg",
+            "credit_heights_4.jpg",
+            "credit_heights_5.jpg",
+            "credit_heights_6.jpg",
+            "credit_heights_7.jpg",
+            "credit_heights_8.jpg",
+            "credit_heights_9.jpg",
+            "credit_heights_10.jpg",
+            "credit_heights_11.jpg",
+            "credit_heights_12.jpg",
+            "credit_heights_13.jpg"
+        ]
+    },
+    {
+        "id": "cotton",
+        "title": "Cotton",
+        "category": "Wall Units & Storage",
+        "location": "Oakville, ON",
+        "year": "2023",
+        "description": "Bespoke wall units and custom storage solutions designed to maximize the space while maintaining a clean, minimalist look. Floor-to-ceiling cabinetry with integrated display shelving.",
+        "thumb": "cotton-1.jpg",
+        "images": [
+            "cotton-1.jpg",
+            "cotton-2.jpg"
+        ]
+    }
+]

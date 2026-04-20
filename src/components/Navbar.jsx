@@ -167,7 +167,7 @@ export default function Navbar() {
                     </a>
 
                     <ul className="nav__links nav__links--right">
-                        <li><a href="#projects" className="nav__link">Projects</a></li>
+                        <li><a href="/projects" className="nav__link">Projects</a></li>
                         <li><a href="#contact" className="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -187,7 +187,7 @@ export default function Navbar() {
                 <ul ref={mobileLinksRef} className="mobile-menu__links">
                     <li><a href="#about" className="mobile-menu__link" onClick={closeMenu}>About</a></li>
                     <li><a href="#services" className="mobile-menu__link" onClick={closeMenu}>Services</a></li>
-                    <li><a href="#projects" className="mobile-menu__link" onClick={closeMenu}>Projects</a></li>
+                    <li><a href="/projects" className="mobile-menu__link" onClick={closeMenu}>Projects</a></li>
                     <li><a href="#contact" className="mobile-menu__link" onClick={closeMenu}>Contact</a></li>
                 </ul>
             </nav>

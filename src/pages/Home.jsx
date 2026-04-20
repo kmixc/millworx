@@ -1,18 +1,45 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import heroPoster from '../assets/img/dunloe/dunloe_1.jpg'
 
 export default function Home() {
+    const [videoLoaded, setVideoLoaded] = useState(false)
+    const iframeRef = useRef(null)
+
+    useEffect(() => {
+        function handleMessage(e) {
+            if (!e.origin.includes('vimeo.com')) return
+            try {
+                const data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data
+                if (data.event === 'ready') {
+                    // Ask Vimeo to notify us when it plays
+                    iframeRef.current?.contentWindow?.postMessage(
+                        JSON.stringify({ method: 'addEventListener', value: 'play' }),
+                        'https://player.vimeo.com'
+                    )
+                }
+                if (data.event === 'play') {
+                    setVideoLoaded(true)
+                }
+            } catch (_) { }
+        }
+        window.addEventListener('message', handleMessage)
+        return () => window.removeEventListener('message', handleMessage)
+    }, [])
+
     return (
         <div>
             <section className="hero">
-                <div className="hero__bg">
+                <div className="hero__bg" style={{ backgroundImage: `url(${heroPoster})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="hero__video-wrap">
                         <iframe
+                            ref={iframeRef}
                             src="https://player.vimeo.com/video/1150029951?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1&background=1"
                             frameBorder="0"
                             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                             referrerPolicy="strict-origin-when-cross-origin"
                             title="Millworx Project Showcase"
                             className="hero__video-iframe"
+                            style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 1.5s ease' }}
                         ></iframe>
                     </div>
                 </div>
@@ -232,10 +259,6 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="projects__cta reveal">
-                        <a href="#" className="btn btn--dark">View All Projects</a>
                     </div>
                 </div>
             </section>
