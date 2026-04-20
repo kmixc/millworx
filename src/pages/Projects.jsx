@@ -11,7 +11,7 @@ function resolveImage(folder, filename) {
 }
 
 export default function Projects() {
-    const heroSrc = resolveImage('dunloe', 'dunloe_1.jpg')
+    const heroSrc = resolveImage('castlefield', 'castlefield_1_f.jpg')
 
     return (
         <div>

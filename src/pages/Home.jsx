@@ -1,5 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import heroPoster from '../assets/img/dunloe/dunloe_1.jpg'
+import caldwellFeature from '../assets/img/caldwell/caldwell_1_f.jpg'
+import castlefieldFeature from '../assets/img/castlefield/castlefield_1_f.jpg'
+import glenRoadFeature from '../assets/img/glen_road/glen_road_1_f.jpg'
+import glencairnFeature from '../assets/img/glencairn/glencairn_1_f.jpg'
+import jarvisFeature from '../assets/img/jarvis/jarvis_1_f.jpg'
+import ritzCarltonFeature from '../assets/img/ritz_carlton/ritz_carlton_1.jpg'
+import dunloeFeature from '../assets/img/dunloe/dunloe_16.jpg'
+import creditheightsFeature from '../assets/img/credit_heights/credit_heights_5.jpg'
 
 export default function Home() {
     const [videoLoaded, setVideoLoaded] = useState(false)
@@ -118,7 +127,7 @@ export default function Home() {
 
                         <div className="intro__image reveal reveal-delay-2">
                             <img
-                                src="https://static.wixstatic.com/media/e4f8c2_916f6fba19aa4e7fb09aa14bbd8aed6e~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e4f8c2_916f6fba19aa4e7fb09aa14bbd8aed6e~mv2.jpg"
+                                src={dunloeFeature}
                                 alt="Custom cabinetry detail"
                             />
                             <div className="intro__image-tag">
@@ -200,65 +209,65 @@ export default function Home() {
                     </div>
 
                     <div className="projects__grid">
-                        <div className="project-card reveal">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_cb451f5a71c74353af70b0000da41c6e~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_85,enc_avif,quality_auto/e4f8c2_cb451f5a71c74353af70b0000da41c6e~mv2.jpg" alt="Kitchen project" />
+                        <Link to="/projects/caldwell" className="project-card reveal">
+                            <img className="project-card__img" src={caldwellFeature} alt="Caldwell kitchen" />
                             <div className="project-card__overlay">
                                 <div className="project-card__info">
                                     <div className="project-card__category">Residential Kitchen</div>
-                                    <div className="project-card__title">The Rosedale Residence</div>
+                                    <div className="project-card__title">Caldwell</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="project-card reveal reveal-delay-1">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_9847fdb2ed37464eb25b5d600b31adb4~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e4f8c2_9847fdb2ed37464eb25b5d600b31adb4~mv2.jpg" alt="Bathroom vanity" />
-                            <div className="project-card__overlay">
-                                <div className="project-card__info">
-                                    <div className="project-card__category">Bathroom</div>
-                                    <div className="project-card__title">Forest Hill Vanity Suite</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="project-card reveal reveal-delay-2">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_b4a8b6ca08b34867aa50b1e579168006~mv2.jpg/v1/fill/w_1200,h_1800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e4f8c2_b4a8b6ca08b34867aa50b1e579168006~mv2.jpg" alt="Custom cabinetry" />
+                        <Link to="/projects/castlefield" className="project-card reveal reveal-delay-1">
+                            <img className="project-card__img" src={castlefieldFeature} alt="Castlefield cabinetry" />
                             <div className="project-card__overlay">
                                 <div className="project-card__info">
                                     <div className="project-card__category">Custom Cabinetry</div>
-                                    <div className="project-card__title">Bridle Path Library</div>
+                                    <div className="project-card__title">Castlefield</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="project-card reveal reveal-delay-1">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_fbc9358273104ce9b26ad8633377510e~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_85,enc_avif,quality_auto/e4f8c2_fbc9358273104ce9b26ad8633377510e~mv2.jpg" alt="Minimalist kitchen" />
+                        <Link to="/projects/glen_road" className="project-card reveal reveal-delay-2">
+                            <img className="project-card__img" src={glenRoadFeature} alt="Glen Road kitchen" />
                             <div className="project-card__overlay">
                                 <div className="project-card__info">
                                     <div className="project-card__category">Residential Kitchen</div>
-                                    <div className="project-card__title">Yorkville Penthouse</div>
+                                    <div className="project-card__title">Glen Road</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="project-card reveal reveal-delay-2">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_d759e95044df4926a5a3cd1340db36f4~mv2.jpg/v1/fill/w_1200,h_1600,al_c,q_85,enc_avif,quality_auto/e4f8c2_d759e95044df4926a5a3cd1340db36f4~mv2.jpg" alt="Modern kitchen island" />
+                        <Link to="/projects/glencairn" className="project-card reveal reveal-delay-1">
+                            <img className="project-card__img" src={glencairnFeature} alt="Glencairn cabinetry" />
                             <div className="project-card__overlay">
                                 <div className="project-card__info">
-                                    <div className="project-card__category">Residential Kitchen</div>
-                                    <div className="project-card__title">The King West Loft</div>
+                                    <div className="project-card__category">Custom Cabinetry</div>
+                                    <div className="project-card__title">Glencairn</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="project-card reveal reveal-delay-3">
-                            <img className="project-card__img" src="https://static.wixstatic.com/media/e4f8c2_a50b033c86af42e58267751836f32404~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e4f8c2_a50b033c86af42e58267751836f32404~mv2.jpg" alt="Closet and wardrobe" />
+                        <Link to="/projects/jarvis" className="project-card reveal reveal-delay-2">
+                            <img className="project-card__img" src={jarvisFeature} alt="Jarvis commercial millwork" />
                             <div className="project-card__overlay">
                                 <div className="project-card__info">
-                                    <div className="project-card__category">Walk-in Closet</div>
-                                    <div className="project-card__title">Lawrence Park Dressing Room</div>
+                                    <div className="project-card__category">Commercial Millwork</div>
+                                    <div className="project-card__title">Jarvis</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
+
+                        <Link to="/projects/ritz_carlton" className="project-card reveal reveal-delay-3">
+                            <img className="project-card__img" src={ritzCarltonFeature} alt="Ritz Carlton commercial millwork" />
+                            <div className="project-card__overlay">
+                                <div className="project-card__info">
+                                    <div className="project-card__category">Commercial Millwork</div>
+                                    <div className="project-card__title">Ritz Carlton</div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -278,7 +287,7 @@ export default function Home() {
             </section>
 
             <div className="full-bleed">
-                <img className="full-bleed__img" src="https://static.wixstatic.com/media/e4f8c2_5ef20d8a393445da805c11607941e448~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e4f8c2_5ef20d8a393445da805c11607941e448~mv2.jpeg" alt="Luxury interior" />
+                <img className="full-bleed__img" src={creditheightsFeature} alt="Luxury interior" />
                 <div className="full-bleed__overlay">
                     <div className="full-bleed__text">
                         When dreams<br /><em>are worth building</em>
