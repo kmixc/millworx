@@ -185,10 +185,10 @@ export default function Navbar() {
                     <span></span>
                 </button>
                 <ul ref={mobileLinksRef} className="mobile-menu__links">
-                    <li><a href="#about" className="mobile-menu__link" onClick={closeMenu}>About</a></li>
-                    <li><a href="#services" className="mobile-menu__link" onClick={closeMenu}>Services</a></li>
+                    <li><a href="/about" className="mobile-menu__link" onClick={closeMenu}>About</a></li>
+                    <li><a href="/services" className="mobile-menu__link" onClick={closeMenu}>Services</a></li>
                     <li><a href="/projects" className="mobile-menu__link" onClick={closeMenu}>Projects</a></li>
-                    <li><a href="#contact" className="mobile-menu__link" onClick={closeMenu}>Contact</a></li>
+                    <li><a href="/contact" className="mobile-menu__link" onClick={closeMenu}>Contact</a></li>
                 </ul>
             </nav>
         </div>
