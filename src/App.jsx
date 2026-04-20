@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 
 //COMPONENTS
 import Navbar from './components/Navbar'
@@ -15,8 +15,12 @@ import Contact from './pages/Contact'
 
 import './App.css'
 
-function App() {
+function ScrollToTop() {
+  const { pathname } = useLocation()
   useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+
+    // Re-observe any .reveal elements rendered by the new page
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -28,12 +32,24 @@ function App() {
       },
       { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
     )
-    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
-    return () => observer.disconnect()
-  }, [])
+    // Small delay lets the new page render before observing
+    const timer = setTimeout(() => {
+      document.querySelectorAll('.reveal:not(.revealed)').forEach((el) => observer.observe(el))
+    }, 50)
 
+    return () => {
+      clearTimeout(timer)
+      observer.disconnect()
+    }
+  }, [pathname])
+
+  return null
+}
+
+function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

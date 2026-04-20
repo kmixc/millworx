@@ -73,5 +73,70 @@
             "cotton-1.jpg",
             "cotton-2.jpg"
         ]
+    },
+    {
+        "id": "oxley",
+        "title": "Oxley",
+        "category": "Residential Kitchen",
+        "location": "Toronto, ON",
+        "year": "2024",
+        "description": "A refined kitchen overhaul with custom European cabinetry, integrated appliances, and a seamless layout designed for both function and elegance.",
+        "thumb": "oxley_1.jpg",
+        "images": [
+            "oxley_1.jpg",
+            "oxley_2.jpg",
+            "oxley_3.jpg",
+            "oxley_4.jpg",
+            "oxley_5.jpg",
+            "oxley_6.jpg",
+            "oxley_7.jpg",
+            "oxley_8.jpg",
+            "oxley_9.jpg"
+        ]
+    },
+    {
+        "id": "ritz_carlton",
+        "title": "Ritz Carlton",
+        "category": "Commercial Millwork",
+        "location": "Toronto, ON",
+        "year": "2023",
+        "description": "High-end commercial millwork for a luxury hospitality environment, featuring bespoke joinery, premium veneers, and meticulous detailing throughout.",
+        "thumb": "ritz_carlton_1.jpg",
+        "images": [
+            "ritz_carlton_1.jpg",
+            "ritz_carlton_2.jpg",
+            "ritz_carlton_3.jpg",
+            "ritz_carlton_4.jpg",
+            "ritz_carlton_5.jpg",
+            "ritz_carlton_6.jpg"
+        ]
+    },
+    {
+        "id": "trotwood",
+        "title": "Trotwood",
+        "category": "Custom Cabinetry",
+        "location": "Oakville, ON",
+        "year": "2024",
+        "description": "A comprehensive cabinetry package spanning kitchen and living spaces, crafted with precision hardware and a warm, natural material palette.",
+        "thumb": "trotwood_1.jpg",
+        "images": [
+            "trotwood_1.jpg",
+            "trotwood_2.jpg",
+            "trotwood_3.jpg",
+            "trotwood_4.jpg",
+            "trotwood_5.jpg",
+            "trotwood_6.jpg",
+            "trotwood_7.jpg",
+            "trotwood_8.jpg",
+            "trotwood_9.jpg",
+            "trotwood_10.jpg",
+            "trotwood_11.jpg",
+            "trotwood_12.jpg",
+            "trotwood_13.jpg",
+            "trotwood_14.jpg",
+            "trotwood_15.jpg",
+            "trotwood_16.jpg",
+            "trotwood_17.jpg"
+        ]
     }
 ]

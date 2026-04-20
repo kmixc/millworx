@@ -138,7 +138,7 @@ export default function Navbar() {
             </div>
 
             <div className="nav-logo-row" ref={logoRowRef}>
-                <a href="#" className="nav__logo">
+                <a href="/" className="nav__logo">
                     <img src={logo} alt="Millworx" />
                 </a>
                 <button
@@ -158,17 +158,17 @@ export default function Navbar() {
             <nav className="nav-links-row" ref={linksRowRef} aria-label="Main navigation">
                 <div className="nav__split">
                     <ul className="nav__links nav__links--left">
-                        <li><a href="#about" className="nav__link">About</a></li>
-                        <li><a href="#services" className="nav__link">Services</a></li>
+                        <li><a href="/about" className="nav__link">About</a></li>
+                        <li><a href="/services" className="nav__link">Services</a></li>
                     </ul>
 
-                    <a href="#" className="nav__logo nav__logo--inline">
+                    <a href="/" className="nav__logo nav__logo--inline">
                         <img src={logo} alt="Millworx" />
                     </a>
 
                     <ul className="nav__links nav__links--right">
                         <li><a href="/projects" className="nav__link">Projects</a></li>
-                        <li><a href="#contact" className="nav__link">Contact</a></li>
+                        <li><a href="/contact" className="nav__link">Contact</a></li>
                     </ul>
                 </div>
             </nav>
