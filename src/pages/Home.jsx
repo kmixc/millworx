@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// CSS_IMPORT_DISABLED
 import heroPoster from '../assets/img/dunloe/dunloe_1.jpg'
 import caldwellFeature from '../assets/img/caldwell/caldwell_1_f.jpg'
 import castlefieldFeature from '../assets/img/castlefield/castlefield_1_f.jpg'
@@ -32,7 +33,7 @@ export default function Home() {
 
                 <div className="hero__content">
                     <p className="label hero__label">Est. 2005 &nbsp;·&nbsp; Ontario, Canada</p>
-                    <h1 className="hero__heading">Custom <em>European</em> Cabinetry</h1>
+                    <h1 className="hero__heading"><em>Bespoke</em> Cabinetry & Interiors</h1>
                     <p className="hero__sub">Designed &nbsp;·&nbsp; Manufactured &nbsp;·&nbsp; Installed</p>
                     <a href="#projects" className="btn btn--light">View Projects</a>
                 </div>

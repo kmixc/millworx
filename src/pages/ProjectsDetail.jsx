@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
+// CSS_IMPORT_DISABLED
 import projectsData from '../data/projects.json'
 
 // Pre-load all project images via Vite glob

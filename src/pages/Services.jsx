@@ -23,7 +23,6 @@ const SERVICES = [
                 <rect x="12" y="26" width="10" height="8" rx="0.5" />
             </svg>
         ),
-        folder: 'caldwell', img: 'caldwell_1_f.jpg',
     },
     {
         num: '02',
@@ -37,7 +36,6 @@ const SERVICES = [
                 <line x1="24" y1="26" x2="24" y2="34" />
             </svg>
         ),
-        folder: 'dunloe', img: 'dunloe_1.jpg',
     },
     {
         num: '03',
@@ -51,7 +49,6 @@ const SERVICES = [
                 <line x1="24" y1="8" x2="24" y2="40" />
             </svg>
         ),
-        folder: 'castlefield', img: 'castlefield_1_f.jpg',
     },
     {
         num: '04',
@@ -67,7 +64,6 @@ const SERVICES = [
                 <line x1="14" y1="30" x2="26" y2="30" />
             </svg>
         ),
-        folder: 'glen_road', img: 'glen_road_1_f.jpg',
     },
     {
         num: '05',
@@ -82,7 +78,6 @@ const SERVICES = [
                 <circle cx="27" cy="12" r="1.5" />
             </svg>
         ),
-        folder: 'glencairn', img: 'glencairn_1_f.jpg',
     },
     {
         num: '06',
@@ -96,7 +91,6 @@ const SERVICES = [
                 <line x1="10" y1="22" x2="38" y2="22" />
             </svg>
         ),
-        folder: 'jarvis', img: 'jarvis_1_f.jpg',
     },
 ]
 
@@ -147,20 +141,13 @@ export default function Services() {
                 <div className="container">
                     <div className="svc-grid">
                         {SERVICES.map((s) => {
-                            const imgSrc = resolveImage(s.folder, s.img)
                             return (
                                 <div key={s.num} className="svc-item reveal">
-                                    <div className="svc-item__image">
-                                        <img src={imgSrc} alt={s.title} />
-                                    </div>
                                     <div className="svc-item__body">
                                         <div className="svc-item__num">{s.num}</div>
                                         <div className="svc-item__icon">{s.icon}</div>
                                         <h3 className="svc-item__title">{s.title}</h3>
                                         <p className="svc-item__text">{s.body}</p>
-                                        <Link to="/projects" className="svc-item__link">
-                                            View related work &rarr;
-                                        </Link>
                                     </div>
                                 </div>
                             )
