@@ -73,29 +73,6 @@ export default function ProjectsDetail() {
                 </div>
             </section>
 
-            {/* ── Intro ── */}
-            <section className="detail-intro">
-                <div className="container">
-                    <div className="detail-intro__inner reveal">
-                        <div className="detail-intro__meta">
-                            <div className="detail-meta-item">
-                                <span className="label">Category</span>
-                                <span className="detail-meta-item__value">{project.category}</span>
-                            </div>
-                            <div className="detail-meta-item">
-                                <span className="label">Location</span>
-                                <span className="detail-meta-item__value">{project.location}</span>
-                            </div>
-                            <div className="detail-meta-item">
-                                <span className="label">Year</span>
-                                <span className="detail-meta-item__value">{project.year}</span>
-                            </div>
-                        </div>
-                        <p className="detail-intro__desc">{project.description}</p>
-                    </div>
-                </div>
-            </section>
-
             {/* ── Photo Gallery ── */}
             <section className="detail-gallery">
                 <div className="container">

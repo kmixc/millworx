@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// CSS_IMPORT_DISABLED
 import heroPoster from '../assets/img/dunloe/dunloe_1.jpg'
 import caldwellFeature from '../assets/img/caldwell/caldwell_1_f.jpg'
 import castlefieldFeature from '../assets/img/castlefield/castlefield_1_f.jpg'
@@ -69,16 +68,12 @@ export default function Home() {
                 <div className="container">
                     <div className="intro__grid">
                         <div className="intro__text reveal">
-                            <p className="label">Our Philosophy</p>
                             <div className="divider"></div>
                             <h2 className="intro__heading">
                                 Where <em>precision</em><br />meets beauty
                             </h2>
                             <p className="intro__body">
-                                For nearly two decades, Millworx has been crafting custom European cabinetry for
-                                discerning homeowners and commercial clients across Ontario. Our in-house team of
-                                designers and skilled craftspeople collaborate on every project — from the first
-                                sketch to the final installation.
+                                For almost 20 years, Millworx has been building custom European cabinetry for homeowners and businesses across Ontario. Every project is a true collaboration, our designers and skilled craftspeople work closely together from the first sketch to the final installation, making sure every detail is just right.
                             </p>
                             <p className="intro__body">
                                 We work exclusively with premium materials, state-of-the-art manufacturing equipment,

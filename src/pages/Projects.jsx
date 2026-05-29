@@ -21,7 +21,6 @@ export default function Projects() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <p className="label hero__label">Our Work</p>
                     <h1 className="hero__heading">Featured <em>Projects</em></h1>
                     <p className="hero__sub">Residential &nbsp;·&nbsp; Commercial &nbsp;·&nbsp; Custom</p>
                 </div>
@@ -30,15 +29,6 @@ export default function Projects() {
             {/* ── Gallery Grid ── */}
             <section className="projects" id="projects">
                 <div className="container">
-                    <div className="section-header reveal">
-                        <p className="label">Portfolio</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">Crafted with <em>precision</em></h2>
-                        <p className="section-sub">
-                            Each project is a collaboration — designed, manufactured, and installed entirely in-house.
-                        </p>
-                    </div>
-
                     <div className="projects__grid">
                         {projectsData.map((project) => {
                             const thumb = resolveImage(project.id, project.thumb)

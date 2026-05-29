@@ -4,7 +4,7 @@
         "title": "Dunloe",
         "category": "Residential Kitchen",
         "location": "Toronto, ON",
-        "year": "2024",
+        "year": "2022",
         "description": "A full kitchen renovation featuring custom European cabinetry, integrated appliances, and bespoke island millwork. Every detail was designed and fabricated in-house to complement the home's contemporary aesthetic.",
         "thumb": "dunloe_1.jpg",
         "images": [
@@ -42,7 +42,7 @@
         "title": "Credit Heights",
         "category": "Custom Cabinetry",
         "location": "Mississauga, ON",
-        "year": "2023",
+        "year": "2026",
         "description": "A whole-home cabinetry package spanning kitchen, bathrooms, and custom built-ins throughout. Crafted from premium European materials with soft-close hardware and integrated lighting.",
         "thumb": "credit_heights_1.jpg",
         "images": [
@@ -105,7 +105,7 @@
         "title": "Oxley",
         "category": "Residential Kitchen",
         "location": "Toronto, ON",
-        "year": "2024",
+        "year": "2023",
         "description": "A refined kitchen overhaul with custom European cabinetry, integrated appliances, and a seamless layout designed for both function and elegance.",
         "thumb": "oxley_1.jpg",
         "images": [
@@ -125,7 +125,7 @@
         "title": "Ritz Carlton",
         "category": "Commercial Millwork",
         "location": "Toronto, ON",
-        "year": "2023",
+        "year": "2024",
         "description": "High-end commercial millwork for a luxury hospitality environment, featuring bespoke joinery, premium veneers, and meticulous detailing throughout.",
         "thumb": "ritz_carlton_1.jpg",
         "images": [
@@ -164,39 +164,11 @@
         ]
     },
     {
-        "id": "trotwood",
-        "title": "Trotwood",
-        "category": "Custom Cabinetry",
-        "location": "Oakville, ON",
-        "year": "2024",
-        "description": "A comprehensive cabinetry package spanning kitchen and living spaces, crafted with precision hardware and a warm, natural material palette.",
-        "thumb": "trotwood_1.jpg",
-        "images": [
-            "trotwood_1.jpg",
-            "trotwood_2.jpg",
-            "trotwood_3.jpg",
-            "trotwood_4.jpg",
-            "trotwood_5.jpg",
-            "trotwood_6.jpg",
-            "trotwood_7.jpg",
-            "trotwood_8.jpg",
-            "trotwood_9.jpg",
-            "trotwood_10.jpg",
-            "trotwood_11.jpg",
-            "trotwood_12.jpg",
-            "trotwood_13.jpg",
-            "trotwood_14.jpg",
-            "trotwood_15.jpg",
-            "trotwood_16.jpg",
-            "trotwood_17.jpg"
-        ]
-    },
-    {
         "id": "caldwell",
         "title": "Caldwell",
         "category": "Residential Kitchen",
         "location": "Toronto, ON",
-        "year": "2025",
+        "year": "2023",
         "description": "Placeholder description for Caldwell project.",
         "thumb": "caldwell_1_f.jpg",
         "images": [
@@ -214,7 +186,7 @@
         "title": "Castlefield",
         "category": "Custom Cabinetry",
         "location": "Toronto, ON",
-        "year": "2025",
+        "year": "2022",
         "description": "Placeholder description for Castlefield project.",
         "thumb": "castlefield_1_f.jpg",
         "images": [
@@ -294,7 +266,7 @@
         "title": "Jarvis",
         "category": "Commercial Millwork",
         "location": "Toronto, ON",
-        "year": "2025",
+        "year": "2022",
         "description": "Placeholder description for Jarvis project.",
         "thumb": "jarvis_1_f.jpg",
         "images": [
@@ -314,7 +286,7 @@
         "title": "Park Lawn",
         "category": "Residential Kitchen",
         "location": "Toronto, ON",
-        "year": "2025",
+        "year": "2024",
         "description": "Placeholder description for Park Lawn project.",
         "thumb": "park_lawn_12.jpg",
         "images": [
@@ -339,7 +311,7 @@
         "title": "Stone Jack",
         "category": "Custom Cabinetry",
         "location": "Blue Mountain, ON",
-        "year": "2025",
+        "year": "2023",
         "description": "Placeholder description for Stone Jack project.",
         "thumb": "stone_jack_1.jpg",
         "images": [
@@ -386,6 +358,34 @@
             "surbray_10.jpg",
             "surbray_11.jpg",
             "surbray_12.jpg"
+        ]
+    },
+    {
+        "id": "trotwood",
+        "title": "Trotwood",
+        "category": "Custom Cabinetry",
+        "location": "Oakville, ON",
+        "year": "2022",
+        "description": "A comprehensive cabinetry package spanning kitchen and living spaces, crafted with precision hardware and a warm, natural material palette.",
+        "thumb": "trotwood_1.jpg",
+        "images": [
+            "trotwood_1.jpg",
+            "trotwood_2.jpg",
+            "trotwood_3.jpg",
+            "trotwood_4.jpg",
+            "trotwood_5.jpg",
+            "trotwood_6.jpg",
+            "trotwood_7.jpg",
+            "trotwood_8.jpg",
+            "trotwood_9.jpg",
+            "trotwood_10.jpg",
+            "trotwood_11.jpg",
+            "trotwood_12.jpg",
+            "trotwood_13.jpg",
+            "trotwood_14.jpg",
+            "trotwood_15.jpg",
+            "trotwood_16.jpg",
+            "trotwood_17.jpg"
         ]
     }
 ]

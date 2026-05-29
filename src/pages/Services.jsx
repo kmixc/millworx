@@ -112,7 +112,6 @@ export default function Services() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <p className="label hero__label">What We Do</p>
                     <h1 className="hero__heading">Our <em>Services</em></h1>
                     <p className="hero__sub">Design &nbsp;·&nbsp; Manufacture &nbsp;·&nbsp; Install</p>
                 </div>
@@ -122,8 +121,6 @@ export default function Services() {
             <section className="svc-intro">
                 <div className="container svc-intro__inner reveal">
                     <div className="svc-intro__text">
-                        <p className="label">A Complete Service</p>
-                        <div className="divider"></div>
                         <h2 className="section-heading">
                             Every project, <em>in-house</em><br />from start to finish
                         </h2>
@@ -185,38 +182,6 @@ export default function Services() {
                 </div>
             </section>
 
-            {/* ── Materials callout ── */}
-            <section className="svc-materials">
-                <div className="container svc-materials__inner">
-                    <div className="svc-materials__text reveal">
-                        <p className="label">Our Materials</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">Premium materials,<br /><em>responsibly sourced</em></h2>
-                        <p className="svc-materials__body">
-                            We work exclusively with European-grade hardware — Blum hinges, Häfele systems,
-                            and precision-milled cabinet boxes — paired with solid hardwoods, veneers,
-                            lacquers, and stone surfaces selected for their beauty and durability.
-                        </p>
-                        <p className="svc-materials__body">
-                            Our relationships with suppliers mean access to finishes and materials unavailable
-                            off the shelf — giving your project a character that is entirely its own.
-                        </p>
-                    </div>
-                    <div className="svc-materials__badges reveal">
-                        {['Blum Hardware', 'Häfele Systems', 'Solid Hardwood', 'European Veneer', 'Lacquer Finish', 'Natural Stone'].map((m) => (
-                            <div key={m} className="svc-badge">{m}</div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* ── CTA ── */}
-            <section className="about-cta">
-                <div className="container about-cta__inner reveal">
-                    <h2 className="about-cta__heading">Ready to discuss your <em>project</em>?</h2>
-                    <Link to="/contact" className="btn btn--light">Get in Touch</Link>
-                </div>
-            </section>
         </div>
     )
 }

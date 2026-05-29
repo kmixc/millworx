@@ -42,7 +42,6 @@ export default function Contact() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <p className="label hero__label">Get in Touch</p>
                     <h1 className="hero__heading">Let's <em>Connect</em></h1>
                     <p className="hero__sub">Residential &nbsp;·&nbsp; Commercial &nbsp;·&nbsp; Custom</p>
                 </div>
@@ -54,14 +53,13 @@ export default function Contact() {
 
                     {/* Info Column */}
                     <div className="contact-info reveal">
-                        <p className="label">Our Studio</p>
                         <div className="divider"></div>
                         <h2 className="section-heading">
                             Start your <em>project</em>
                         </h2>
                         <p className="contact-info__body">
-                            We welcome every inquiry — from first-time homeowners to seasoned designers.
-                            Tell us about your vision and we'll get back to you within one business day.
+                            Whether you know exactly what you want or you're just getting started, we're happy to talk it through.
+                            Fill out the form and we'll get back to you within one business day.
                         </p>
 
                         <ul className="contact-detail-list">
@@ -73,7 +71,10 @@ export default function Contact() {
                             </li>
                             <li className="contact-detail-list__item">
                                 <span className="contact-detail-list__label">Phone</span>
-                                <a href="tel:9056709001" className="contact-detail-list__value contact-detail-list__link">
+                                <a
+                                    href="tel:9056709001"
+                                    className="contact-detail-list__value contact-detail-list__link"
+                                >
                                     (905) 670-9001
                                 </a>
                             </li>

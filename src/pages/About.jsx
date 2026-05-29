@@ -191,13 +191,6 @@ export default function About() {
                 </div>
             </section>
 
-            {/* ── CTA Strip ── */}
-            <section className="about-cta">
-                <div className="container about-cta__inner reveal">
-                    <h2 className="about-cta__heading">Ready to begin your <em>project</em>?</h2>
-                    <Link to="/contact" className="btn btn--light">Get in Touch</Link>
-                </div>
-            </section>
         </div>
     )
 }
