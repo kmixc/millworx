@@ -30,8 +30,8 @@ export default function Footer() {
                     <div>
                         <div className="footer__col-title">Hours</div>
                         <ul className="footer__links footer__hours">
-                            <li><span>Mon – Thu</span><span>8 a.m. – 5 p.m.</span></li>
-                            <li><span>Friday</span><span>8 a.m. – 3 p.m.</span></li>
+                            <li><span>Mon – Thu</span><span>8am – 5pm</span></li>
+                            <li><span>Friday</span><span>8am – 3pm</span></li>
                             <li><span>Sat – Sun</span><span>Closed</span></li>
                         </ul>
                     </div>

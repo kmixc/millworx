@@ -518,7 +518,6 @@ a {
 }
 
 .hero__heading em {
-  font-style: italic;
   font-weight: 300;
 }
 
@@ -629,7 +628,6 @@ a {
 }
 
 .section-heading em {
-  font-style: italic;
   font-weight: 300;
 }
 
@@ -955,9 +953,6 @@ a {
   letter-spacing: -0.01em;
 }
 
-.intro__heading em {
-  font-style: italic;
-}
 
 .intro__body {
   font-size: var(--fs-body-lg);
@@ -1048,9 +1043,6 @@ overflowage-tag {
   margin-top: var(--space-sm);
 }
 
-.section-header__heading em {
-  font-style: italic;
-}
 
 .services__grid {
   display: grid;
@@ -1344,9 +1336,6 @@ overflowage-tag {
   letter-spacing: -0.01em;
 }
 
-.about-preview__heading em {
-  font-style: italic;
-}
 
 .about-preview__body {
   font-size: var(--fs-body-lg);
@@ -1462,7 +1451,6 @@ overflowage-tag {
   font-family: var(--font-serif);
   font-size: clamp(1.6rem, 2.8vw, 2.8rem);
   font-weight: 300;
-  font-style: italic;
   line-height: 1.4;
   max-width: 42ch;
   margin: 0 auto var(--space-md);
@@ -1515,9 +1503,6 @@ overflowage-tag {
   line-height: 1.2;
 }
 
-.full-bleed__text em {
-  font-style: italic;
-}
 
 /* =============================================
        SERVICES PAGE
@@ -1740,9 +1725,6 @@ overflowage-tag {
   margin: 0 auto var(--space-md);
 }
 
-.about-opening__heading em {
-  font-style: italic;
-}
 
 .about-opening__intro {
   font-size: var(--fs-body-lg);
@@ -1884,7 +1866,6 @@ overflowage-tag {
   font-family: var(--font-serif);
   font-size: clamp(1.6rem, 3vw, 2.8rem);
   font-weight: 300;
-  font-style: italic;
   color: var(--color-white);
   line-height: 1.45;
   max-width: 26ch;
@@ -1971,9 +1952,6 @@ overflowage-tag {
   line-height: 1.2;
 }
 
-.about-cta__heading em {
-  font-style: italic;
-}
 
 /* =============================================
        CONTACT PAGE
@@ -2175,7 +2153,6 @@ overflowage-tag {
 .footer__tagline {
   font-family: var(--font-serif);
   font-size: 1rem;
-  font-style: italic;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.35);
   margin-bottom: var(--space-md);

@@ -14,7 +14,7 @@ function resolveImage(folder, filename) {
 
 const STORY_CHAPTER_1 = {
     label: 'The Beginning',
-    heading: <>How it all <em>started</em></>,
+    heading: <>How it all started</>,
     // TODO: Replace with actual founding story paragraph(s)
     body: [
         'Placeholder — insert the founding story here. Describe where, when, and why Millworx was started.',
@@ -24,7 +24,7 @@ const STORY_CHAPTER_1 = {
 
 const STORY_CHAPTER_2 = {
     label: 'The Craft',
-    heading: <>A commitment to <em>excellence</em></>,
+    heading: <>A commitment to excellence</>,
     // TODO: Replace with the story of how the craft/process evolved
     body: [
         'Placeholder — describe how the craft and process developed over the years.',
@@ -34,7 +34,7 @@ const STORY_CHAPTER_2 = {
 
 const STORY_CHAPTER_3 = {
     label: 'Today',
-    heading: <>Building the <em>future</em></>,
+    heading: <>Building the future</>,
     // TODO: Replace with where the company is heading
     body: [
         'Placeholder — describe where Millworx stands today and what drives the team forward.',
@@ -56,7 +56,7 @@ export default function About() {
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
                     <p className="label hero__label">Est. 2005 &nbsp;·&nbsp; Ontario, Canada</p>
-                    <h1 className="hero__heading">Our <em>Story</em></h1>
+                    <h1 className="hero__heading">Our Story</h1>
                     <p className="hero__sub">Craftsmanship &nbsp;·&nbsp; Heritage &nbsp;·&nbsp; Vision</p>
                 </div>
             </section>
@@ -68,7 +68,7 @@ export default function About() {
                     <p className="label">Who We Are</p>
                     <div className="divider"></div>
                     <h2 className="about-opening__heading">
-                        Two decades of <em>precision</em>,<br />built into every detail
+                        Two decades of precision,<br />built into every detail
                     </h2>
                     <p className="about-opening__intro">
                         From a single workshop in Mississauga to one of Ontario's most trusted names in custom
@@ -172,7 +172,7 @@ export default function About() {
                     <div className="section-header reveal">
                         <p className="label">What Drives Us</p>
                         <div className="divider"></div>
-                        <h2 className="section-heading">Our <em>values</em></h2>
+                        <h2 className="section-heading">Our values</h2>
                     </div>
                     <div className="about-values__grid">
                         {[

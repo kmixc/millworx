@@ -42,7 +42,7 @@ export default function Contact() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <h1 className="hero__heading">Let's <em>Connect</em></h1>
+                    <h1 className="hero__heading">Let's Connect</h1>
                     <p className="hero__sub">Residential &nbsp;·&nbsp; Commercial &nbsp;·&nbsp; Custom</p>
                 </div>
             </section>
@@ -55,7 +55,7 @@ export default function Contact() {
                     <div className="contact-info reveal">
                         <div className="divider"></div>
                         <h2 className="section-heading">
-                            Start your <em>project</em>
+                            Start your project
                         </h2>
                         <p className="contact-info__body">
                             Whether you know exactly what you want or you're just getting started, we're happy to talk it through.
@@ -81,9 +81,9 @@ export default function Contact() {
                             <li className="contact-detail-list__item">
                                 <span className="contact-detail-list__label">Hours</span>
                                 <span className="contact-detail-list__value">
-                                    Mon – Thu &nbsp;8 a.m. – 5 p.m.<br />
-                                    Friday &nbsp;8 a.m. – 3 p.m.<br />
-                                    Sat – Sun &nbsp;Closed
+                                    Mon – Thu: &nbsp;8am – 5pm<br />
+                                    Friday: &nbsp;8am – 3pm<br />
+                                    Sat – Sun: &nbsp;Closed
                                 </span>
                             </li>
                             <li className="contact-detail-list__item">

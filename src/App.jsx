@@ -47,6 +47,11 @@ function ScrollToTop() {
   return null
 }
 
+function ConditionalFooter() {
+  const { pathname } = useLocation()
+  return pathname === '/' ? null : <Footer />
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -60,7 +65,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <ConditionalFooter />
     </BrowserRouter>
   )
 }

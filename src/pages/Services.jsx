@@ -112,7 +112,7 @@ export default function Services() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <h1 className="hero__heading">Our <em>Services</em></h1>
+                    <h1 className="hero__heading">Our Services</h1>
                     <p className="hero__sub">Design &nbsp;·&nbsp; Manufacture &nbsp;·&nbsp; Install</p>
                 </div>
             </section>
@@ -122,7 +122,7 @@ export default function Services() {
                 <div className="container svc-intro__inner reveal">
                     <div className="svc-intro__text">
                         <h2 className="section-heading">
-                            Every project, <em>in-house</em><br />from start to finish
+                            Every project, in-house<br />from start to finish
                         </h2>
                     </div>
                     <p className="svc-intro__body">
@@ -158,7 +158,7 @@ export default function Services() {
                 <img className="full-bleed__img" src={bleedSrc} alt="Ritz-Carlton commercial millwork" />
                 <div className="full-bleed__overlay">
                     <div className="full-bleed__text">
-                        Built to the <em>highest standard</em>
+                        Built to the highest standard
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ export default function Services() {
                 <div className="container">
                     <div className="section-header reveal">
                         <p className="label">How It Works</p>
-                        <h2 className="section-header__heading">The Millworx <em>Process</em></h2>
+                        <h2 className="section-header__heading">The Millworx Process</h2>
                     </div>
                     <div className="process__grid">
                         {PROCESS_STEPS.map((step, i) => (

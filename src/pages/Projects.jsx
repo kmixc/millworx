@@ -21,7 +21,7 @@ export default function Projects() {
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
-                    <h1 className="hero__heading">Featured <em>Projects</em></h1>
+                    <h1 className="hero__heading">Featured Projects</h1>
                     <p className="hero__sub">Residential &nbsp;·&nbsp; Commercial &nbsp;·&nbsp; Custom</p>
                 </div>
             </section>

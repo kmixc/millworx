@@ -2,7 +2,7 @@
     {
         "id": "dunloe",
         "title": "Dunloe",
-        "category": "Residential Kitchen",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2022",
         "description": "A full kitchen renovation featuring custom European cabinetry, integrated appliances, and bespoke island millwork. Every detail was designed and fabricated in-house to complement the home's contemporary aesthetic.",
@@ -40,7 +40,7 @@
     {
         "id": "credit_heights",
         "title": "Credit Heights",
-        "category": "Custom Cabinetry",
+        "category": "Residential",
         "location": "Mississauga, ON",
         "year": "2026",
         "description": "A whole-home cabinetry package spanning kitchen, bathrooms, and custom built-ins throughout. Crafted from premium European materials with soft-close hardware and integrated lighting.",
@@ -71,7 +71,7 @@
     {
         "id": "cotton",
         "title": "Cotton",
-        "category": "Wall Units & Storage",
+        "category": "Residential",
         "location": "Oakville, ON",
         "year": "2023",
         "description": "Bespoke wall units and custom storage solutions designed to maximize the space while maintaining a clean, minimalist look. Floor-to-ceiling cabinetry with integrated display shelving.",
@@ -103,11 +103,11 @@
     {
         "id": "oxley",
         "title": "Oxley",
-        "category": "Residential Kitchen",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2023",
         "description": "A refined kitchen overhaul with custom European cabinetry, integrated appliances, and a seamless layout designed for both function and elegance.",
-        "thumb": "oxley_1.jpg",
+        "thumb": "oxley_2.jpg",
         "images": [
             "oxley_1.jpg",
             "oxley_2.jpg",
@@ -123,7 +123,7 @@
     {
         "id": "ritz_carlton",
         "title": "Ritz Carlton",
-        "category": "Commercial Millwork",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2024",
         "description": "High-end commercial millwork for a luxury hospitality environment, featuring bespoke joinery, premium veneers, and meticulous detailing throughout.",
@@ -166,7 +166,7 @@
     {
         "id": "caldwell",
         "title": "Caldwell",
-        "category": "Residential Kitchen",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2023",
         "description": "Placeholder description for Caldwell project.",
@@ -184,7 +184,7 @@
     {
         "id": "castlefield",
         "title": "Castlefield",
-        "category": "Custom Cabinetry",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2022",
         "description": "Placeholder description for Castlefield project.",
@@ -214,7 +214,7 @@
     {
         "id": "glen_road",
         "title": "Glen Road",
-        "category": "Residential Kitchen",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2025",
         "description": "Placeholder description for Glen Road project.",
@@ -239,7 +239,7 @@
     {
         "id": "glencairn",
         "title": "Glencairn",
-        "category": "Custom Cabinetry",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2025",
         "description": "Placeholder description for Glencairn project.",
@@ -264,7 +264,7 @@
     {
         "id": "jarvis",
         "title": "Jarvis",
-        "category": "Commercial Millwork",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2022",
         "description": "Placeholder description for Jarvis project.",
@@ -284,7 +284,7 @@
     {
         "id": "park_lawn",
         "title": "Park Lawn",
-        "category": "Residential Kitchen",
+        "category": "Residential",
         "location": "Toronto, ON",
         "year": "2024",
         "description": "Placeholder description for Park Lawn project.",
@@ -309,7 +309,7 @@
     {
         "id": "stone_jack",
         "title": "Stone Jack",
-        "category": "Custom Cabinetry",
+        "category": "Residential",
         "location": "Blue Mountain, ON",
         "year": "2023",
         "description": "Placeholder description for Stone Jack project.",
@@ -332,38 +332,14 @@
             "stone_jack_15.jpg",
             "stone_jack_16.jpg",
             "stone_jack_17.jpg",
-            "stone_jack_18.jpg",
             "stone_jack_19.jpg",
             "stone_jack_20.jpg"
         ]
     },
     {
-        "id": "surbray",
-        "title": "Surbray",
-        "category": "Wall Units & Storage",
-        "location": "Toronto, ON",
-        "year": "2025",
-        "description": "Placeholder description for Surbray project.",
-        "thumb": "surbray_1.jpg",
-        "images": [
-            "surbray_1.jpg",
-            "surbray_2.jpg",
-            "surbray_3.jpg",
-            "surbray_4.jpg",
-            "surbray_5.jpg",
-            "surbray_6.jpg",
-            "surbray_7.jpg",
-            "surbray_8.jpg",
-            "surbray_9.jpg",
-            "surbray_10.jpg",
-            "surbray_11.jpg",
-            "surbray_12.jpg"
-        ]
-    },
-    {
         "id": "trotwood",
         "title": "Trotwood",
-        "category": "Custom Cabinetry",
+        "category": "Residential",
         "location": "Oakville, ON",
         "year": "2022",
         "description": "A comprehensive cabinetry package spanning kitchen and living spaces, crafted with precision hardware and a warm, natural material palette.",
