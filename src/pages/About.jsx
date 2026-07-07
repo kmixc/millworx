@@ -49,12 +49,11 @@ export default function About() {
             </section>
 
             {/* ── Stats Marquee ── */}
-            <div className="marquee-strip marquee-strip--stats" aria-hidden="true">
+            <div className="marquee-strip" aria-hidden="true">
                 <div className="marquee-strip__track">
                     {[...STATS, ...STATS, ...STATS, ...STATS].map((stat, i) => (
-                        <span key={i} className="marquee-strip__item marquee-strip__item--stat">
-                            <span className="marquee-strip__stat-number">{stat.number}</span>
-                            {stat.label}
+                        <span key={i} className="marquee-strip__item">
+                            {stat.number} {stat.label}
                             <span className="marquee-strip__dot"></span>
                         </span>
                     ))}

@@ -924,30 +924,6 @@ a {
     transform: translateX(-50%);
   }
 }
-
-/* Stats variant (About page) */
-.marquee-strip--stats {
-  padding: 1.3rem 0;
-}
-
-.marquee-strip--stats .marquee-strip__track {
-  animation-duration: 36s;
-}
-
-.marquee-strip__item--stat {
-  gap: 1.2rem;
-  color: rgba(255, 255, 255, 0.55);
-}
-
-.marquee-strip__stat-number {
-  font-family: var(--font-serif);
-  font-size: 1.7rem;
-  font-weight: 300;
-  color: var(--color-white);
-  line-height: 1;
-  letter-spacing: -0.02em;
-}
-
 /* =============================================
        INTRO / SPLIT
     ============================================= */
