@@ -1699,7 +1699,7 @@ overflowage-tag {
 
 /* Opening statement */
 .about-opening {
-  padding: var(--space-xxl) 0 var(--space-lg);
+  padding: 0 0 var(--space-xxl) 0;
   background: var(--color-white);
   text-align: center;
   position: relative;

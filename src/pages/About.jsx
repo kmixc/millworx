@@ -26,7 +26,7 @@ const STORY_CHAPTER_2 = {
 export default function About() {
     const heroSrc = resolveImage('jarvis', 'jarvis_1_f.jpg')
     const img2Src = resolveImage('glen_road', 'glen_road_1_f.jpg')
-    const img3Src = resolveImage('castlefield', 'castlefield_1_f.jpg')
+    const img3Src = resolveImage('caldwell', 'caldwell_1_f.jpg')
 
     return (
         <div>
@@ -38,39 +38,6 @@ export default function About() {
                     <p className="label hero__label">Est. 2005 &nbsp;·&nbsp; Ontario, Canada</p>
                     <h1 className="hero__heading">Who We Are</h1>
                     <p className="hero__sub">Craftsmanship &nbsp;·&nbsp; Heritage &nbsp;·&nbsp; Vision</p>
-                </div>
-            </section>
-
-            {/* ── Opening Statement ── */}
-            <section className="about-opening">
-                <div className="container about-opening__inner reveal">
-                    <div className="about-opening__bg-text" aria-hidden="true">Millworx</div>
-                    <div className="divider"></div>
-                    <h2 className="about-opening__heading">
-                        Two decades of precision,<br />built into every detail
-                    </h2>
-                    <p className="about-opening__intro">
-                        From a single workshop in Mississauga to one of Ontario's most trusted names in custom
-                        European cabinetry — the Millworx story is one of craft, dedication, and an unrelenting
-                        pursuit of the extraordinary.
-                    </p>
-                </div>
-            </section>
-
-            {/* ── Story Chapter 2 ── */}
-            <section className="about-chapter about-chapter--reverse">
-                <div className="container about-chapter__grid">
-                    <div className="about-chapter__text reveal">
-                        <p className="label">{STORY_CHAPTER_2.label}</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">{STORY_CHAPTER_2.heading}</h2>
-                        {STORY_CHAPTER_2.body.map((p, i) => (
-                            <p key={i} className="about-chapter__body">{p}</p>
-                        ))}
-                    </div>
-                    <div className="about-chapter__image reveal">
-                        <img src={img3Src} alt="Millworx craftsmanship detail" />
-                    </div>
                 </div>
             </section>
 
@@ -95,6 +62,39 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
+            {/* ── Story Chapter 2 ── */}
+            <section className="about-chapter about-chapter--reverse">
+                <div className="container about-chapter__grid">
+                    <div className="about-chapter__text reveal">
+                        <p className="label">{STORY_CHAPTER_2.label}</p>
+                        <div className="divider"></div>
+                        <h2 className="section-heading">{STORY_CHAPTER_2.heading}</h2>
+                        {STORY_CHAPTER_2.body.map((p, i) => (
+                            <p key={i} className="about-chapter__body">{p}</p>
+                        ))}
+                    </div>
+                    <div className="about-chapter__image reveal">
+                        <img src={img3Src} alt="Millworx craftsmanship detail" />
+                    </div>
+                </div>
+            </section>
+
+            {/* ── Opening Statement ── */}
+            <section className="about-opening">
+                <div className="container about-opening__inner reveal">
+                    <div className="about-opening__bg-text" aria-hidden="true">Millworx</div>
+                    <div className="divider"></div>
+                    <h2 className="about-opening__heading">
+                        Two decades of precision,<br />built into every detail
+                    </h2>
+                    <p className="about-opening__intro">
+                        From a single workshop in Mississauga to one of Ontario's most trusted names in custom
+                        European cabinetry — the Millworx story is one of craft, dedication, and an unrelenting
+                        pursuit of the extraordinary.
+                    </p>
+                </div>
+            </section>
 
         </div>
     )
