@@ -57,6 +57,23 @@ export default function About() {
                 </div>
             </section>
 
+            {/* ── Story Chapter 2 ── */}
+            <section className="about-chapter about-chapter--reverse">
+                <div className="container about-chapter__grid">
+                    <div className="about-chapter__text reveal">
+                        <p className="label">{STORY_CHAPTER_2.label}</p>
+                        <div className="divider"></div>
+                        <h2 className="section-heading">{STORY_CHAPTER_2.heading}</h2>
+                        {STORY_CHAPTER_2.body.map((p, i) => (
+                            <p key={i} className="about-chapter__body">{p}</p>
+                        ))}
+                    </div>
+                    <div className="about-chapter__image reveal">
+                        <img src={img3Src} alt="Millworx craftsmanship detail" />
+                    </div>
+                </div>
+            </section>
+
             {/* ── Stats Bar ── */}
             <div className="about-stats-bar">
                 <div className="container about-stats-bar__grid">
@@ -78,23 +95,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
-            {/* ── Story Chapter 2 ── */}
-            <section className="about-chapter about-chapter--reverse">
-                <div className="container about-chapter__grid">
-                    <div className="about-chapter__text reveal">
-                        <p className="label">{STORY_CHAPTER_2.label}</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">{STORY_CHAPTER_2.heading}</h2>
-                        {STORY_CHAPTER_2.body.map((p, i) => (
-                            <p key={i} className="about-chapter__body">{p}</p>
-                        ))}
-                    </div>
-                    <div className="about-chapter__image reveal">
-                        <img src={img3Src} alt="Millworx craftsmanship detail" />
-                    </div>
-                </div>
-            </section>
 
         </div>
     )
