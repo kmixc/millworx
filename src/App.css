@@ -925,6 +925,29 @@ a {
   }
 }
 
+/* Stats variant (About page) */
+.marquee-strip--stats {
+  padding: 1.3rem 0;
+}
+
+.marquee-strip--stats .marquee-strip__track {
+  animation-duration: 36s;
+}
+
+.marquee-strip__item--stat {
+  gap: 1.2rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.marquee-strip__stat-number {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: var(--color-white);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
 /* =============================================
        INTRO / SPLIT
     ============================================= */
@@ -1748,46 +1771,6 @@ overflowage-tag {
 }
 
 /* Stats bar */
-.about-stats-bar {
-  background: var(--color-dark);
-  padding: var(--space-lg) 0;
-}
-
-.about-stats-bar__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  text-align: center;
-}
-
-.about-stats-bar__item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: var(--space-md) var(--space-sm);
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.about-stats-bar__item:last-child {
-  border-right: none;
-}
-
-.about-stats-bar__number {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 3.5vw, 3.5rem);
-  font-weight: 300;
-  color: var(--color-white);
-  letter-spacing: -0.02em;
-  line-height: 1;
-}
-
-.about-stats-bar__label {
-  font-size: var(--fs-label);
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--color-warm-gray);
-}
-
 /* Story chapters */
 .about-chapter {
   padding: var(--space-xxl) 0;
@@ -2570,14 +2553,6 @@ overflowage-tag {
   .svc-materials__inner {
     grid-template-columns: 1fr;
     gap: 3rem;
-  }
-
-  .about-stats-bar__grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .about-stats-bar__item:nth-child(2) {
-    border-right: none;
   }
 
   .about-chapter__grid {

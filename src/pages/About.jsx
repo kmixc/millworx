@@ -23,6 +23,13 @@ const STORY_CHAPTER_2 = {
 
 // ─────────────────────────────────────────────────────────────────────────────
 
+const STATS = [
+    { number: '2,043', label: 'Projects Completed' },
+    { number: '50+', label: 'Skilled Professionals' },
+    { number: '21', label: 'Years in Business' },
+    { number: '100%', label: 'In-House Process' },
+]
+
 export default function About() {
     const heroSrc = resolveImage('jarvis', 'jarvis_1_f.jpg')
     const img2Src = resolveImage('glen_road', 'glen_road_1_f.jpg')
@@ -41,25 +48,16 @@ export default function About() {
                 </div>
             </section>
 
-            {/* ── Stats Bar ── */}
-            <div className="about-stats-bar">
-                <div className="container about-stats-bar__grid">
-                    <div className="about-stats-bar__item">
-                        <span className="about-stats-bar__number">2,043</span>
-                        <span className="about-stats-bar__label">Projects Completed</span>
-                    </div>
-                    <div className="about-stats-bar__item">
-                        <span className="about-stats-bar__number">50+</span>
-                        <span className="about-stats-bar__label">Skilled Professionals</span>
-                    </div>
-                    <div className="about-stats-bar__item">
-                        <span className="about-stats-bar__number">21</span>
-                        <span className="about-stats-bar__label">Years in Business</span>
-                    </div>
-                    <div className="about-stats-bar__item">
-                        <span className="about-stats-bar__number">100%</span>
-                        <span className="about-stats-bar__label">In-House Process</span>
-                    </div>
+            {/* ── Stats Marquee ── */}
+            <div className="marquee-strip marquee-strip--stats" aria-hidden="true">
+                <div className="marquee-strip__track">
+                    {[...STATS, ...STATS, ...STATS, ...STATS].map((stat, i) => (
+                        <span key={i} className="marquee-strip__item marquee-strip__item--stat">
+                            <span className="marquee-strip__stat-number">{stat.number}</span>
+                            {stat.label}
+                            <span className="marquee-strip__dot"></span>
+                        </span>
+                    ))}
                 </div>
             </div>
 

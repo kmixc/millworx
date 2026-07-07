@@ -79,6 +79,15 @@ export default function Contact() {
                                 </a>
                             </li>
                             <li className="contact-detail-list__item">
+                                <span className="contact-detail-list__label">Email</span>
+                                <a
+                                    href="mailto:info@millworx.ca"
+                                    className="contact-detail-list__value contact-detail-list__link"
+                                >
+                                    info@millworx.ca
+                                </a>
+                            </li>
+                            <li className="contact-detail-list__item">
                                 <span className="contact-detail-list__label">Hours</span>
                                 <span className="contact-detail-list__value">
                                     Mon – Thu: &nbsp;8am – 5pm<br />
