@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 // CSS_IMPORT_DISABLED
 
 const allImages = import.meta.glob('../assets/img/**/*.{jpg,jpeg,png}', { eager: true })
@@ -12,39 +11,20 @@ function resolveImage(folder, filename) {
 // ─── STORY CONTENT ────────────────────────────────────────────────────────────
 // Replace the placeholder strings below with the real company story once received.
 
-const STORY_CHAPTER_1 = {
-    label: 'The Beginning',
-    heading: <>How it all started</>,
-    // TODO: Replace with actual founding story paragraph(s)
-    body: [
-        'Placeholder — insert the founding story here. Describe where, when, and why Millworx was started.',
-        'Placeholder — second paragraph of the founding story.',
-    ],
-}
-
 const STORY_CHAPTER_2 = {
     label: 'The Craft',
     heading: <>A commitment to excellence</>,
-    // TODO: Replace with the story of how the craft/process evolved
     body: [
-        'Placeholder — describe how the craft and process developed over the years.',
-        'Placeholder — talk about the people, the facility, and the European influence.',
+        'At Millworx, our craft is built on precision, discipline, and continuous refinement. Over time, our process has evolved through experience and a commitment to doing things properly from first concept to final installation.',
+        'Our work is shaped by a skilled team, a dedicated facility, and a strong European influence in both design and fabrication. Every detail is considered, and every project is held to a consistent standard of quality.',
+        'Millworx is defined by both tradition and progress. While we stay true to our core standards of quality and craftsmanship, we continue to evolve with new design trends, techniques, and technologies to better serve our clients.',
     ],
 }
 
-const STORY_CHAPTER_3 = {
-    label: 'Today',
-    heading: <>Building the future</>,
-    // TODO: Replace with where the company is heading
-    body: [
-        'Placeholder — describe where Millworx stands today and what drives the team forward.',
-    ],
-}
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function About() {
     const heroSrc = resolveImage('jarvis', 'jarvis_1_f.jpg')
-    const img1Src = resolveImage('caldwell', 'caldwell_1_f.jpg')
     const img2Src = resolveImage('glen_road', 'glen_road_1_f.jpg')
     const img3Src = resolveImage('castlefield', 'castlefield_1_f.jpg')
 
@@ -56,7 +36,7 @@ export default function About() {
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">
                     <p className="label hero__label">Est. 2005 &nbsp;·&nbsp; Ontario, Canada</p>
-                    <h1 className="hero__heading">Our Story</h1>
+                    <h1 className="hero__heading">Who We Are</h1>
                     <p className="hero__sub">Craftsmanship &nbsp;·&nbsp; Heritage &nbsp;·&nbsp; Vision</p>
                 </div>
             </section>
@@ -65,7 +45,6 @@ export default function About() {
             <section className="about-opening">
                 <div className="container about-opening__inner reveal">
                     <div className="about-opening__bg-text" aria-hidden="true">Millworx</div>
-                    <p className="label">Who We Are</p>
                     <div className="divider"></div>
                     <h2 className="about-opening__heading">
                         Two decades of precision,<br />built into every detail
@@ -100,35 +79,9 @@ export default function About() {
                 </div>
             </div>
 
-            {/* ── Story Chapter 1 ── */}
-            <section className="about-chapter">
-                <div className="container about-chapter__grid">
-                    <div className="about-chapter__image reveal">
-                        <img src={img1Src} alt="Millworx workshop — the early years" />
-                    </div>
-                    <div className="about-chapter__text reveal">
-                        <p className="label">{STORY_CHAPTER_1.label}</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">{STORY_CHAPTER_1.heading}</h2>
-                        {STORY_CHAPTER_1.body.map((p, i) => (
-                            <p key={i} className="about-chapter__body">{p}</p>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* ── Full-bleed Pull Quote ── */}
+            {/* ── Full-bleed Image ── */}
             <div className="about-pull-quote">
                 <div className="about-pull-quote__bg" style={{ backgroundImage: `url(${img2Src})` }}></div>
-                <div className="hero__overlay"></div>
-                <div className="container about-pull-quote__inner reveal">
-                    {/* TODO: Replace with a real founder quote */}
-                    <p className="about-pull-quote__mark">&ldquo;</p>
-                    <blockquote className="about-pull-quote__text">
-                        Placeholder — insert a meaningful founder or values quote here.
-                    </blockquote>
-                    <p className="about-pull-quote__attribution">— Founder Name &nbsp;·&nbsp; Millworx</p>
-                </div>
             </div>
 
             {/* ── Story Chapter 2 ── */}
@@ -144,49 +97,6 @@ export default function About() {
                     </div>
                     <div className="about-chapter__image reveal">
                         <img src={img3Src} alt="Millworx craftsmanship detail" />
-                    </div>
-                </div>
-            </section>
-
-            {/* ── Story Chapter 3 ── */}
-            <section className="about-chapter" style={{ background: 'var(--color-cream)' }}>
-                <div className="container about-chapter__grid">
-                    <div className="about-chapter__image reveal">
-                        <img src={heroSrc} alt="Millworx today" />
-                    </div>
-                    <div className="about-chapter__text reveal">
-                        <p className="label">{STORY_CHAPTER_3.label}</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">{STORY_CHAPTER_3.heading}</h2>
-                        {STORY_CHAPTER_3.body.map((p, i) => (
-                            <p key={i} className="about-chapter__body">{p}</p>
-                        ))}
-                        <Link to="/contact" className="btn btn--dark">Start a Project</Link>
-                    </div>
-                </div>
-            </section>
-
-            {/* ── Values ── */}
-            <section className="about-values">
-                <div className="container">
-                    <div className="section-header reveal">
-                        <p className="label">What Drives Us</p>
-                        <div className="divider"></div>
-                        <h2 className="section-heading">Our values</h2>
-                    </div>
-                    <div className="about-values__grid">
-                        {[
-                            { num: '01', title: 'Precision', body: 'Every measurement, every joint, every finish is held to a standard that leaves no room for compromise.' },
-                            { num: '02', title: 'Integrity', body: 'We are transparent in our process, honest in our timelines, and accountable to every client we serve.' },
-                            { num: '03', title: 'Innovation', body: 'European design principles meet the latest manufacturing technology — creating work that is both timeless and current.' },
-                            { num: '04', title: 'Partnership', body: 'We treat every project as a collaboration. Your vision, our expertise — together we build something remarkable.' },
-                        ].map((v) => (
-                            <div key={v.num} className="about-value reveal">
-                                <div className="about-value__num">{v.num}</div>
-                                <h3 className="about-value__title">{v.title}</h3>
-                                <p className="about-value__body">{v.body}</p>
-                            </div>
-                        ))}
                     </div>
                 </div>
             </section>

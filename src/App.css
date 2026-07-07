@@ -1842,6 +1842,7 @@ overflowage-tag {
 /* Pull quote */
 .about-pull-quote {
   position: relative;
+  min-height: 55vh;
   padding: var(--space-xxl) 0;
   overflow: hidden;
   text-align: center;
