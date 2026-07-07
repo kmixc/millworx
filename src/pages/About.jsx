@@ -79,11 +79,6 @@ export default function About() {
                 </div>
             </div>
 
-            {/* ── Full-bleed Image ── */}
-            <div className="about-pull-quote">
-                <div className="about-pull-quote__bg" style={{ backgroundImage: `url(${img2Src})` }}></div>
-            </div>
-
             {/* ── Story Chapter 2 ── */}
             <section className="about-chapter about-chapter--reverse">
                 <div className="container about-chapter__grid">
