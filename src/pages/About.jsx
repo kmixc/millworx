@@ -38,7 +38,7 @@ export default function About() {
     return (
         <div>
             {/* ── Page Hero ── */}
-            <section className="page-hero">
+            <section className="page-hero page-hero--flush-strip">
                 <div className="page-hero__bg" style={{ backgroundImage: `url(${heroSrc})` }}></div>
                 <div className="hero__overlay"></div>
                 <div className="page-hero__content">

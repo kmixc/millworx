@@ -33,6 +33,7 @@
   --max-width: 1360px;
   --gutter: 3rem;
   --nav-height: 90px;
+  --marquee-height: 48px;
 }
 
 /* =============================================
@@ -576,13 +577,20 @@ a {
     ============================================= */
 .page-hero {
   position: relative;
-  height: 60vh;
-  min-height: 480px;
+  height: 100vh;
+  min-height: 700px;
   display: flex;
   align-items: flex-end;
   padding-bottom: var(--space-xl);
   padding-top: calc(var(--nav-height) + 3.25rem);
   overflow: hidden;
+}
+
+/* Hero followed by a marquee strip (About) — leave room so the strip
+   sits at the bottom edge of the first screen */
+.page-hero--flush-strip {
+  height: calc(100vh - var(--marquee-height));
+  min-height: calc(700px - var(--marquee-height));
 }
 
 .page-hero__bg {
@@ -883,7 +891,9 @@ a {
     ============================================= */
 .marquee-strip {
   background: var(--color-dark);
-  padding: 1rem 0;
+  height: var(--marquee-height);
+  display: flex;
+  align-items: center;
   overflow: hidden;
 }
 
