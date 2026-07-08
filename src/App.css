@@ -898,7 +898,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 2rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-size: 0.65rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
