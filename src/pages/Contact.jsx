@@ -19,7 +19,7 @@ export default function Contact() {
         const data = new FormData(form)
 
         try {
-            const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const res = await fetch('https://formspree.io/f/mpqggwpd', {
                 method: 'POST',
                 body: data,
                 headers: { Accept: 'application/json' },
@@ -53,7 +53,6 @@ export default function Contact() {
 
                     {/* Info Column */}
                     <div className="contact-info reveal">
-                        <div className="divider"></div>
                         <h2 className="section-heading">
                             Start your project
                         </h2>

@@ -81,7 +81,6 @@ export default function About() {
             <section className="about-opening">
                 <div className="container about-opening__inner reveal">
                     <div className="about-opening__bg-text" aria-hidden="true">Millworx</div>
-                    <div className="divider"></div>
                     <h2 className="about-opening__heading">
                         Two decades of precision,<br />built into every detail
                     </h2>
