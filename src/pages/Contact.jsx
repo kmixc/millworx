@@ -94,14 +94,6 @@ export default function Contact() {
                                     Sat – Sun: &nbsp;Closed
                                 </span>
                             </li>
-                            <li className="contact-detail-list__item">
-                                <span className="contact-detail-list__label">Social</span>
-                                <span className="contact-detail-list__value">
-                                    <a href="https://www.instagram.com/millworx.ca/" className="contact-detail-list__link" target="_blank" rel="noopener noreferrer">Instagram</a>
-                                    &nbsp;·&nbsp;
-                                    <a href="https://www.facebook.com/millworxcompany" className="contact-detail-list__link" target="_blank" rel="noopener noreferrer">Facebook</a>
-                                </span>
-                            </li>
                         </ul>
                     </div>
 

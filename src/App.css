@@ -1418,7 +1418,7 @@ overflowage-tag {
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
   margin-top: var(--space-xl);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .process-step {
@@ -1562,6 +1562,7 @@ overflowage-tag {
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--color-sand);
+  border: 1px solid var(--color-sand);
 }
 
 .svc-item {
@@ -1598,28 +1599,6 @@ overflowage-tag {
 
 .svc-item:hover .svc-item__body {
   border-color: var(--color-accent);
-}
-
-.svc-item__num {
-  font-family: var(--font-serif);
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--color-accent);
-  margin-bottom: 1rem;
-}
-
-.svc-item__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: var(--space-md);
-}
-
-.svc-item__icon svg {
-  width: 100%;
-  height: 100%;
-  stroke: var(--color-dark);
-  fill: none;
-  stroke-width: 1;
 }
 
 .svc-item__title {
@@ -1722,7 +1701,7 @@ overflowage-tag {
 
 .about-opening__bg-text {
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--font-serif);
@@ -1743,7 +1722,7 @@ overflowage-tag {
   line-height: 1.2;
   letter-spacing: -0.01em;
   max-width: 22ch;
-  margin: 0 auto var(--space-md);
+  margin: 0 auto var(--space-sm);
 }
 
 
@@ -1964,14 +1943,14 @@ overflowage-tag {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.2rem;
 }
 
 .contact-detail-list__item {
   display: grid;
   grid-template-columns: 8rem 1fr;
   gap: 1rem;
-  padding-top: 1.8rem;
+  padding-top: 1.2rem;
   border-top: 1px solid var(--color-sand);
   font-size: var(--fs-body);
   line-height: 1.75;
@@ -2496,6 +2475,10 @@ overflowage-tag {
   .process-step {
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .process-step:last-child {
+    border-bottom: none;
   }
 
   .footer__top {
