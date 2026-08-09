@@ -1,12 +1,12 @@
 import heroPoster from '../assets/img/dunloe/dunloe_1.jpg'
-import heroVideo from '../assets/website_video.mp4'
+import heroVideo from '../assets/website_video_2026.mp4'
 
 export default function Home() {
 
     return (
         <div style={{ height: '100dvh', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
             <section className="hero" style={{ flex: 1, minHeight: 0 }}>
-                <div className="hero__bg" style={{ backgroundImage: `url(${heroPoster})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="hero__bg" style={{ backgroundImage: `url(${heroPoster})`, backgroundSize: 'cover', backgroundPosition: 'center top' }}>
                     <div className="hero__video-wrap">
                         <video
                             className="hero__video-iframe"
